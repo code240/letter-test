@@ -49,6 +49,7 @@
     background-color: #ffffff;
     margin: 0 auto;
     margin-top: 2vh;
+    display: none;
 }
 .head-div{
     border: 0px solid black;
