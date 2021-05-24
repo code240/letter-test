@@ -53,6 +53,8 @@
         background-color: #ffffff;
         margin: 0 auto;
         margin-top:0;
+        overflow-y: auto;
+        padding-bottom: 5vh;
     }
     .head-div{
         border: 0px solid black;
@@ -73,7 +75,7 @@
     .login-heading{
         text-align: center;
         font-family: sans-serif;
-        margin-top: 5vh;
+        margin-top: 8vh;
         font-weight: 600;
         text-transform: capitalize;
         color: #21333d;
@@ -82,7 +84,7 @@
     .login-form{
         border: 0px solid #000;
         height: auto;
-        padding-top: 3.5vh;
+        padding-top: 6.5vh;
         padding-left: 1rem;
         padding-right: 1rem;
     }
@@ -95,7 +97,7 @@
         font-weight: 500;
     }
     .label-2-margin{
-        margin-top: 2vh;
+        margin-top: 4vh;
     }
     .input-mail{
         height: auto;
@@ -122,7 +124,7 @@
         background-color: #7829FF;
         color: #ffffff;
         border-radius: 5px;
-        margin-top: 4vh;
+        margin-top: 6vh;
         display: block;
         transition: 0.6s ease-in-out;
 
@@ -144,7 +146,7 @@
         color: #7829FF;
         border: 2px solid #7829FF;
         border-radius: 5px;
-        margin-top:2.5vh;
+        margin-top:3.5vh;
         display: block;
         transition: 0.6s ease-in-out;
     }
