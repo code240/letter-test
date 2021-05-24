@@ -19,3 +19,22 @@
     margin: 0 auto;
     border:0px solid aliceblue;
 }
+.intro-loding{
+    height: 5rem;
+    width: 5rem;
+    border:0px solid aliceblue;
+    margin: 3rem auto;
+    margin-bottom: 0rem;
+    background-image: url(../img/load.gif);
+    background-size: 100% 100%;
+}
+.intro-version{
+    height:auto;
+    width: 5rem;
+    border:0px solid aliceblue;
+    margin: 0rem auto;
+    margin-top: 8rem;
+    color:#ffffff;
+    font-size: 1rem;
+    text-align: center;
+}
