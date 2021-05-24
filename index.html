@@ -18,11 +18,54 @@
 </head>
 <body>
     <div class="complete-wrap">
-        <div class="intro-screen">
+        <div class="intro-screen" id="intro">
             <div class="intro-logo"></div>
             <div class="intro-loding"></div>
             <div class="intro-version">V1.1.0</div>
         </div>
+
+        <div class="login-screen" id="login">
+            <header class="head-div">
+                <div class="login-logo"></div>
+                <h1 class="login-heading">
+                    Login to your account
+                </h1>
+                <div class="login-form">
+                    <form  method="post">
+                        <label for="input-mail" class="mail-label">Email Address / Username</label>
+                        <div class="input-group mb-3" >
+                            <div class="input-group-prepend" id="input-logo">
+                                <span class="input-group-text" id="basic-addon1 " ><i class="fas fa-user login-font-awsome"></i></span>
+                            </div>
+                            <input type="text" class="form-control input-mail" placeholder="Username" aria-label="Username" id="input-mail" aria-describedby="basic-addon1">
+                        </div>
+
+                        <label for="input-password" class="mail-label label-2-margin">Password</label>
+                        <div class="input-group mb-3" >
+                            <div class="input-group-prepend" id="input-logo">
+                                <span class="input-group-text" id="basic-addon1" ><i class="fas fa-lock login-font-awsome"></i></span>
+                            </div>
+                            <input type="password" class="form-control input-mail" placeholder="Password" aria-label="Username" id="input-password" aria-describedby="basic-addon1">
+                        </div>
+
+                        <input type="submit" value="Login" class="login-btn">
+                    </form>
+
+                    <table class="or-table"><tbody><tr>
+                        <td style="width:45%"><hr class="or-line"></td>
+                        <td style="vertical-align:middle; text-align: center">OR</td>
+                        <td style="width:45%"><hr class="or-line"></td>
+                    </tr></tbody></table>
+
+                    <button class="register">Register</button>
+                </div>
+            </header>
+        </div>
+
+
     </div>
+
+    
+
 </body>
 </html>

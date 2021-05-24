@@ -39,4 +39,123 @@
         font-size: 1rem;
         text-align: center;
     }
+
+    
+
+            
+    /* login screen design */
+
+
+    .login-screen{
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(250, 240, 255);
+        background-color: #ffffff;
+        margin: 0 auto;
+        margin-top:0;
+    }
+    .head-div{
+        border: 0px solid black;
+        height: auto;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+    }
+    .login-logo{
+        height: 2rem;
+        width: 8rem;
+        margin: 0 auto;
+        /* background-color: aqua; */
+        background: url(../logo/logopurple.png);
+        background-size: 100% 100%;
+    }
+    .login-heading{
+        text-align: center;
+        font-family: sans-serif;
+        margin-top: 3rem;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: #21333d;
+        font-size: 2rem;
+    }
+    .login-form{
+        border: 0px solid #000;
+        height: auto;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .mail-label{
+        font-size: 1rem;
+        font-family:sans-serif;
+        color: #21333d;
+        color: #000000;
+        display: block;
+        font-weight: 500;
+    }
+    .label-2-margin{
+        margin-top: 1rem;
+    }
+    .input-mail{
+        height: auto;
+        font-size: 1.1rem;
+        padding-left: 0.5rem;
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+        padding-right: 0.3rem;
+        border: 1px solid #9c9c9c;
+        border-radius:0px 5px 5px 0px;
+    }
+    #input-logo{
+        border: 1px solid #9c9c9c;
+        border-radius: 5px 0px 0px 5px;
+    }
+    .login-font-awsome{
+        color: #7829FF;
+    }
+    .login-btn{
+        width: 100%;
+        padding-top: 0.3rem;
+        padding-bottom: 0.36rem;
+        font-size: 1.2rem;
+        background-color: #7829FF;
+        color: #ffffff;
+        border-radius: 5px;
+        margin-top: 2rem;
+        display: block;
+        transition: 0.6s ease-in-out;
+
+    }
+    .or-table{
+        margin: 1.5rem auto;
+        margin-bottom: 0;
+    }
+    .or-line{
+        background-color: rgb(143, 143, 143);
+    }
+    .register{
+        width:70%;
+        margin: 0 auto;
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem;
+        font-size: 1.2rem;
+        background-color: #ffffff;
+        color: #7829FF;
+        border: 2px solid #7829FF;
+        border-radius: 5px;
+        margin-top: 1.5rem;
+        display: block;
+        transition: 0.6s ease-in-out;
+    }
+    .register:hover{
+        color: #ffffff;
+        background-color: #7829FF;
+        border: 2px solid #7829FF; 
+    }
+    .login-btn:hover{
+        background-color: #ffffff;
+        color: #7829FF;
+        border: 2px solid #7829FF; 
+    }
 }
