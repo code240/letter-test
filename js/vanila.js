@@ -1,3 +1,6 @@
+var beep = new Audio('../audio/clickbeep.mp3');
+// var beep  = document.getElementById("beep");
+
 setTimeout(()=>{
     document.getElementById("intro").style.display = "none";
     document.getElementById("login").style.display = "block";
@@ -5,6 +8,7 @@ setTimeout(()=>{
 },4000);
 
 const loginform = () =>{
+    beep.play();
     document.getElementById("intro").style.display = "none";
     document.getElementById("register").style.display = "none";
     document.getElementById("login").style.display = "block";
@@ -12,6 +16,7 @@ const loginform = () =>{
 
 
 const Registerform = () =>{
+    beep.play();
     document.getElementById("intro").style.display = "none";
     document.getElementById("register").style.display = "block";
     document.getElementById("login").style.display = "none";
