@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/vanila.js"></script>
     <link rel="stylesheet" href="css/mobi-style.css">
+    <link rel="stylesheet" href="css/scrollbar.css">
     <title>Letter</title>
 </head>
 <body>
@@ -57,11 +58,83 @@
                         <td style="width:45%"><hr class="or-line"></td>
                     </tr></tbody></table>
 
-                    <button class="register">Register</button>
+                    <button class="register" onclick="Registerform();">Register</button>
                 </div>
             </header>
         </div>
 
+        <div class="Register-screen" id="register">
+            <header class="head-div">
+                <div class="login-logo"></div>
+                <h1 class="login-heading">
+                    Create New Account
+                </h1>
+            </header>
+            <div class="register-form">
+                <form  method="post">
+                    <label for="Name" class="mail-label">Full Name</label>
+                    <div class="input-group mb-3" >
+                        <div class="input-group-prepend" id="input-logo">
+                            <span class="input-group-text" id="basic-addon1 " ><i class="fas fa-user login-font-awsome"></i></span>
+                        </div>
+                        <input type="text" name="fullname" autocomplete="off" class="form-control input-mail" placeholder="Full Name" aria-label="Username" id="Name" aria-describedby="basic-addon1">
+                    </div>
+
+                    <label for="PhoneNumber" class="mail-label">Phone number</label>
+                    <div class="input-group mb-3" >
+                        <div class="input-group-prepend" id="input-logo">
+                            <span class="input-group-text" id="basic-addon1 " ><i class="fas fa-phone-square-alt login-font-awsome"></i></span>
+                        </div>
+                        <input type="text" autocomplete="off" name="phonenumber" class="form-control input-mail" placeholder="Phone Number" aria-label="Username" id="PhoneNumber" aria-describedby="basic-addon1">
+                    </div>
+
+                    <label for="DOB" class="mail-label">Date Of Birth</label>
+                    <div class="input-group mb-3" >
+                        <div class="input-group-prepend" id="input-logo">
+                            <span class="input-group-text" id="basic-addon1 " ><i class="fas fa-calendar-day login-font-awsome"></i></span>
+                        </div>
+                        <input type="date" autocomplete="off" name="dob" class="form-control input-mail" placeholder="DOB" aria-label="Username" id="DOB" aria-describedby="basic-addon1">
+                    </div>
+
+                    <label for="uniquename" class="mail-label">Username</label>
+                    <div class="input-group mb-3 input-border">
+                        <div class="input-group-prepend input-border-right">
+                          <span class="input-group-text"><i class="fas fa-fingerprint login-font-awsome"></i></span>
+                        </div>
+                        <input type="text" name="uniquename" class="form-control input-mail input-border-left input-border-right" id="uniquename" placeholder="Unique Username">
+                        <div class="input-group-append input-border-left">
+                          <span class="input-group-text">#letters</span>
+                        </div>
+                    </div>
+
+                    <label for="input-password-register" class="mail-label">Password</label>
+                    <div class="input-group mb-3" >
+                        <div class="input-group-prepend" id="input-logo">
+                            <span class="input-group-text" id="basic-addon1" ><i class="fas fa-lock login-font-awsome"></i></span>
+                        </div>
+                        <input type="password" name="password-register" class="form-control input-mail" placeholder="Password" aria-label="Username" id="input-password-register" aria-describedby="basic-addon1">
+                    </div>
+
+                    <label for="confirm-input-password" class="mail-label">Confirm Password</label>
+                    <div class="input-group mb-3" >
+                        <div class="input-group-prepend" id="input-logo">
+                            <span class="input-group-text" id="basic-addon1" ><i class="fas fa-lock login-font-awsome"></i></span>
+                        </div>
+                        <input type="password" class="form-control input-mail" name="cpassword" placeholder="Confirm Password" aria-label="Username" id="confirm-input-password" aria-describedby="basic-addon1">
+                    </div>
+
+                    <input type="submit" value="Register" class="login-btn">
+                </form>
+
+                <table class="or-table"><tbody><tr>
+                    <td style="width:45%"><hr class="or-line"></td>
+                    <td style="vertical-align:middle; text-align: center">OR</td>
+                    <td style="width:45%"><hr class="or-line"></td>
+                </tr></tbody></table>
+
+                <button class="register" onclick="loginform();">Login</button>
+            </div>
+        </div>
 
     </div>
 

@@ -155,3 +155,44 @@
     color: #7829FF;
     border: 2px solid #7829FF; 
 }
+
+
+
+/* Register screen  */
+
+.Register-screen{
+    width: 30%;
+    height: 95vh;
+    background-color: rgb(250, 240, 255);
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 2vh;
+    overflow-y: scroll;
+    display: none;
+    padding-bottom: 20vh;
+}
+.register-form{
+    border: 0px solid #000;
+    height: auto;
+    padding-top: 2vh;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.input-border{
+    border: 1px solid #21333d;
+    border-radius: 5px 5px 5px 5px;
+}
+.input-border-left{
+    border-left:1px;
+    border-style:solid;
+    border-color:#21333d;
+    border-bottom: 0;
+    border-top: 0;
+    border-radius: 5px 0px 0px 5px;
+}
+.input-border-right{
+    border-right: 1px;
+    border-style: solid;
+    border-color:#21333d;
+    border-radius: 5px 0px 0px 5px;
+} 
