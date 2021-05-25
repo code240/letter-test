@@ -9,15 +9,20 @@ setTimeout(()=>{
 
 const loginform = () =>{
     beep.play();
-    document.getElementById("intro").style.display = "none";
-    document.getElementById("register").style.display = "none";
-    document.getElementById("login").style.display = "block";
+    setTimeout(() => {
+        document.getElementById("intro").style.display = "none";
+        document.getElementById("register").style.display = "none";
+        document.getElementById("login").style.display = "block";
+    },100) 
 }
 
 
 const Registerform = () =>{
     beep.play();
-    document.getElementById("intro").style.display = "none";
-    document.getElementById("register").style.display = "block";
-    document.getElementById("login").style.display = "none";
+    setTimeout(() => {
+        document.getElementById("intro").style.display = "none";
+        document.getElementById("register").style.display = "block";
+        document.getElementById("login").style.display = "none";
+    },100) 
+
 }
