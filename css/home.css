@@ -85,11 +85,39 @@
     cursor: pointer;
     color:#ffffff;
 }
+.main-body-notes{
+    border: 0px solid red;
+    height:81vh;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2rem;
+}
+.show-notes{
+    margin: 0;
+    padding: 0;
+    padding-left: 0rem;
+    padding-right:0rem;
+}
+.article-cover{
+    padding-right:0.5rem;
+    padding-left: 0.5rem;
+    border:0px solid #000;
+    height:auto;
+}
 
-
-
-
-
+.article{
+    height: 10rem;
+    background-color: #7829FF;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.7rem;
+    text-align: center;
+    color:aliceblue;
+    font-weight: 400;
+    cursor: pointer;
+}
 
 
 
