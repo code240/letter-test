@@ -153,13 +153,13 @@
         margin-top:0.6rem;
     }
     .message-fixed:hover{
-        width:3.9rem;
-        height: 3.9rem;
+        width:3.05rem;
+        height: 3.05rem;
         box-shadow: 0px 2px 10px  #000;
     }
     .add-notes-fixed:hover{
-        width:3.9rem;
-        height: 3.9rem;
+        width:3.05rem;
+        height: 3.05rem;
         box-shadow: 0px 2px 10px  #000;
     }
     .message-count{
