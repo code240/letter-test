@@ -18,7 +18,7 @@
         padding-right: 0rem;
         border-bottom: 1px solid #999999;
         box-shadow: 5px solid #999999;
-        background:linear-gradient(#A574FD,#7829FF);
+        background:linear-gradient(#782fff,#7829FF);
         border-bottom: 0;
     }
     .logo-and-search{
@@ -133,7 +133,7 @@
         height: 3.2rem;
         cursor: pointer;
         border-radius: 5rem;
-        background:linear-gradient(#7829ff,#7829FF);
+        background:linear-gradient(#A574FD,#7829FF);
         position: fixed;
         bottom:5rem;
         right:1rem;
