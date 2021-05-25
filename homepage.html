@@ -10,6 +10,7 @@
     <script src="bot/require.js"></script>   <!--JQuery file-->
     <script src="bot/bootstrap.min.js"></script>    <!--BootStrap javaScript file-->
     <title>Home</title>
+    <script src="js/home-vanila.js"></script>
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/mobi-home.css">
 
@@ -26,17 +27,17 @@
                     </button>
                 </div>
                 <div class="topoptions">
-                    <div class="left-option">
+                    <div class="left-option" onclick="notesShow();" id="notes-border">
                         My Notes
                     </div>
-                    <div class="right-option">
+                    <div class="right-option" onclick="notificationShow();" id="notify-border">
                         Notifications
                     </div>
                 </div>
             </div>
 
 
-            <div class="main-body-notes">
+            <div class="main-body-notes" id="notes">
                 <div class="show-notes row">
                     <div class="col-6 article-cover">
                         <div class="article">
@@ -51,12 +52,28 @@
                 </div>
             </div>
 
-
+            <div class="main-body-notification"  id="notify">
+                No Notifications yet
+            </div>
 
         </div>
     </div>
 
-
+    <div class="add-frnds">
+        <h1 class="add-heading">
+            ADD FRIEND
+        </h1>
+        <span class="enter-heading">
+            Enter Unique Username for search
+        </span>
+        <form>
+            <input type="text" id="username" autocomplete="off" name="username" class="username-input" placeholder="unique-name">
+            <input type="submit" value="Search" class="btn input-submit">
+        </form>
+        <div class="output-result">
+            <div class="dp"></div>
+        </div>
+    </div>
 
 
 

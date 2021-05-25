@@ -118,12 +118,67 @@
     font-weight: 400;
     cursor: pointer;
 }
+.main-body-notification{
+    border: 0px solid red;
+    height:81vh;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2rem;
+    display: none;
+}
+.add-frnds{
+    position: fixed;
+    top: 0;
+    left: 35%;
+    height: 100vh;
+    width:30%;
+    background-color: #ffffff;
+}
 
-
-
-
-
-
+.add-heading{
+    /* margin: 0 auto; */
+    text-align: center;
+    display: block;
+    margin-top: 2rem;
+    color:#7829FF;
+}
+.enter-heading{
+    font-size: 1.2rem;
+    text-align: center;
+    display: block;
+    font-weight: 600;
+}
+.username-input{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 0.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 2rem;
+}
+.input-submit{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    background-color:#7829FF;
+    color:#ffffff;
+    border-radius: 2rem;
+}
+.output-result{
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+    margin-top: 5rem;
+    height: 5rem;
+    padding-top: 0.5rem;
+}
+.dp{
+    width: 4rem;
+    height: 4rem;
+    
+}
 
 /* fixed divisions  */
 
