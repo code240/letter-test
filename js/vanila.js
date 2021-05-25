@@ -1,11 +1,11 @@
-var beep = new Audio('../audio/clickbeep.mp3');
+var beep = new Audio('../audio/clickbeep.ogg');
 // var beep  = document.getElementById("beep");
 
 setTimeout(()=>{
     document.getElementById("intro").style.display = "none";
     document.getElementById("login").style.display = "block";
     document.getElementById("register").style.display = "none";
-},4000);
+},4000); 
 
 const loginform = () =>{
     beep.play();
